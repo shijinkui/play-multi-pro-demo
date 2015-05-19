@@ -1,0 +1,7 @@
+# ADMIN Routes
+# This file defines ADMIN application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET        /        controllers.admin.Application.index
+
