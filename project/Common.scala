@@ -2,12 +2,12 @@ import sbt.Keys._
 import sbt._
 
 object Common {
-  def appName = "amr-agent"
+  def appName = "play-multi-pro-demo"
 
   // Common settings for every project
   def settings(appName: String) = Seq(
     name := appName,
-    organization := "com.aliyun.amr",
+    organization := "net.pusuo",
     version := "1.0-SNAPSHOT",
     scalaVersion := "2.11.6",
     doc in Compile <<= target.map(_ / "none"),
